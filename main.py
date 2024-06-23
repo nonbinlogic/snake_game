@@ -1,5 +1,6 @@
 from turtle import Screen
-from snake import Snake  # Assuming you saved the Snake class in a file named snake.py
+from snake import Snake
+from food import Food
 import time
 
 screen = Screen()
@@ -9,6 +10,7 @@ screen.title("Snakey Snake")
 screen.tracer(0)
 
 snake = Snake()
+food = Food()
 
 # Control the snake with key presses
 screen.listen()
@@ -22,5 +24,9 @@ while game_is_live:
     screen.update()
     snake.move()
     time.sleep(0.1)
+
+    if snake.head.distance(food) < 20:
+        print("nom nom nom")
+        food.refresh()
 
 screen.exitonclick()

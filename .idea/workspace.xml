@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="211d2710-f49d-44ae-a343-fb15af813b68" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/snake.py" afterDir="false" />
+    <list default="true" id="211d2710-f49d-44ae-a343-fb15af813b68" name="Changes" comment="feat: Refactor code from procedural to OOP&#10;&#10;- Reorganized code into classes and methods&#10;- Improved code readability and maintainability&#10;- Enhanced modularity and reusability of code components">
+      <change afterPath="$PROJECT_DIR$/food.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/snake.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,18 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "nonbinlogic"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;nonbinlogic&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/nonbinlogic/snake_game.git",
-    "accountId": "136e1ba1-5a6d-4e6b-94df-34f7e81a7f01"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/nonbinlogic/snake_game.git&quot;,
+    &quot;accountId&quot;: &quot;136e1ba1-5a6d-4e6b-94df-34f7e81a7f01&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -129,11 +130,20 @@
       <option name="project" value="LOCAL" />
       <updated>1718905536757</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: Refactor code from procedural to OOP&#10;&#10;- Reorganized code into classes and methods&#10;- Improved code readability and maintainability&#10;- Enhanced modularity and reusability of code components">
+      <option name="closed" value="true" />
+      <created>1718920804982</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718920804982</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="feat: Refactor code from procedural to OOP&#10;&#10;- Reorganized code into classes and methods&#10;- Improved code readability and maintainability&#10;- Enhanced modularity and reusability of code components" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Refactor code from procedural to OOP&#10;&#10;- Reorganized code into classes and methods&#10;- Improved code readability and maintainability&#10;- Enhanced modularity and reusability of code components" />
   </component>
 </project>

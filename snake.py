@@ -4,8 +4,11 @@ UP = 90
 DOWN = 270
 LEFT = 180
 RIGHT = 0
-class Snake:
+
+
+class Snake(Turtle):
     def __init__(self):
+        super().__init__()
         self.move_distance = None
         self.offset = None
         self.snake = []
