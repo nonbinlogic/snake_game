@@ -45,6 +45,17 @@ class Snake(Turtle):
             segment.shapesize(size)
         self.update_move_distance()
 
+    def grow(self):
+        # Get the position of the last segment
+        last_segment = self.snake[-1]
+        position = last_segment.position()
+        # Add a new segment to the snake at the last segment's position
+        self.add_segment(position)
+        """
+        for _ in range(10):  # Add 5 segments for each food consumption
+            self.add_segment(position)
+        """
+
     def move(self):
         for i in range(len(self.snake) - 1, 0, -1):
             new_x = self.snake[i - 1].xcor()
@@ -67,3 +78,7 @@ class Snake(Turtle):
     def go_right(self):
         if self.head.heading() != LEFT:
             self.head.setheading(RIGHT)
+
+    def disappear(self):
+        for segment in self.snake:
+            segment.hideturtle()
